@@ -9,6 +9,8 @@
     <Grid>
         <Label x:Name="lblHello" Content="Ik verander as je op de button klikt" HorizontalAlignment="Left" Margin="300,183,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnHello" Content="klik me" HorizontalAlignment="Left" Margin="511,307,0,0" VerticalAlignment="Top" Click="btnHello_Click"/>
+        <Button x:Name="btnTeller" Content="teller" HorizontalAlignment="Left" Margin="170,339,0,0" VerticalAlignment="Top" Click="btnTeller_Click"/>
+        <Label x:Name="lblTeller" Content="0" HorizontalAlignment="Left" Margin="137,128,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

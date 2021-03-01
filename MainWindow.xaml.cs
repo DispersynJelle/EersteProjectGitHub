@@ -20,14 +20,22 @@ namespace EersteProjectGitHub
     /// </summary>
     public partial class MainWindow : Window
     {
+        int teller = 0;
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void btnHello_Click(object sender, RoutedEventArgs e)
         {
             lblHello.Content = "Hello";
+        }
+
+        private void btnTeller_Click(object sender, RoutedEventArgs e)
+        {
+            teller++;
+            lblTeller.Content = teller.ToString();
         }
     }
 }

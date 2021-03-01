@@ -31,11 +31,5 @@ namespace EersteProjectGitHub
         {
             lblHello.Content = "Hello";
         }
-
-        private void btnTeller_Click(object sender, RoutedEventArgs e)
-        {
-            teller++;
-            lblTeller.Content = teller.ToString();
-        }
     }
 }
